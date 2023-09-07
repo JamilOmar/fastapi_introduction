@@ -11,10 +11,6 @@ __pycache__/
 *.egg-info/
 dist/
 
-# Ignore Docker files
-Dockerfile*
-docker-compose*
-
 # Ignore pytest files
 .pytest_cache/
 
@@ -28,11 +24,4 @@ coverage/
 docs/
 
 # Ignore miscellaneous files
-*.md
-*.txt
-*.csv
-*.json
-*.html
-*.css
-*.js
 *.db
