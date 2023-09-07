@@ -1,0 +1,38 @@
+# Ignore venv
+.venv/
+
+# Ignore .env file
+.env
+
+# Ignore unnecessary Python files
+__pycache__/
+
+# Ignore build artifacts
+*.egg-info/
+dist/
+
+# Ignore Docker files
+Dockerfile*
+docker-compose*
+
+# Ignore pytest files
+.pytest_cache/
+
+# Ignore coverage report
+coverage/
+
+# Ignore Jupyter notebooks
+*.ipynb
+
+# Ignore FastAPI documentation
+docs/
+
+# Ignore miscellaneous files
+*.md
+*.txt
+*.csv
+*.json
+*.html
+*.css
+*.js
+*.db
